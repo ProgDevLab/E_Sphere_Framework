@@ -1,0 +1,7 @@
+* [Home](./)
+* [Changelog](./CHANGELOG.md)
+* [Idea](./docs/ideas.md)
+* [Analysis](./docs/analysis.md)
+* [Commands](./docs/commands.md)
+* [Contributing](./CONTRIBUTING.md)
+* [Licence](./LICENCE.md)

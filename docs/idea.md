@@ -9,12 +9,22 @@
 - [E Sphere Framework : Idea](#e-sphere-framework--idea)
   - [Table Of Contents](#table-of-contents)
   - [Base Idea](#base-idea)
+  - [Install Idea](#install-idea)
   - [Install Script Idea](#install-script-idea)
 
 ## Base Idea
 
-- TODO
+- TODO :
+  - docs :
+    - analysis.md
+- UPGRADE E SPHERE FRAMEWORK :
+  - Update all with our template
+- Nothing
+
+## Install Idea
+
+- Nothing
 
 ## Install Script Idea
 
-- TODO
+- Nothing

@@ -1,0 +1,21 @@
+version: '3.6'
+
+
+services:
+  project_name_docs_dev:
+    container_name: project_name_docs_dev
+    image: project_name_docs:latest-dev
+    build:
+      context: ..
+      dockerfile: ./docsify/Dockerfile.dev
+    volumes:
+      - ../docs:/app/docs
+      - ./index.html:/app/index.html
+      - ../icon.png:/app/icon.png
+      - ../CHANGELOG.md:/app/CHANGELOG.md
+      - ../CONTRIBUTING.md:/app/CONTRIBUTING.md
+      - ../LICENCE.md:/app/LICENCE.md
+      - ../README.md:/app/README.md
+    ports:
+      - 6007:3000
+    restart: unless-stopped
