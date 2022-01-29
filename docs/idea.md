@@ -14,11 +14,6 @@
 
 ## Base Idea
 
-- TODO :
-  - docs :
-    - analysis.md
-- UPGRADE E SPHERE FRAMEWORK :
-  - Update all with our template
 - Nothing
 
 ## Install Idea

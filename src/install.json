@@ -1,29 +1,26 @@
 {
-  "main_git": "git@gitlab.com:project.git",
   "searchAndReplaceList": {
     "PROJECT_NAME_UPPER": "PROJECT_NAME",
     "project_name_raw": "project_name",
     "project_name": "Project Name",
     "project_description": "Project Description.",
-    "START_YEAR": "2022",
-    "MAIN_AUTHOR": "ProgOwer"
+    "project_author": "ProgOwer"
   },
   "gitList": {
     "gitlab": "git@gitlab.com:project.git",
     "github": "git@github.com:project.git"
   },
   "fileList": [
-    "README.md",
-    "LICENCE",
+    "docs/_coverpage.md",
+    "docs/analysis.md",
+    "docs/commands.md",
+    "docs/ideas.md",
+    "docsify/docker-compose.dev.yml",
+    "docsify/docker-compose.yml",
+    "docsify/index.html",
     "CHANGELOG.md",
     "CONTRIBUTING.md",
-    "docs/_coverpage.md",
-    "docs/_sidebar.md",
-    "docs/analysis.md",
-    "docs/command.md",
-    "docs/idea.md",
-    "docsify/index.html",
-    "docsify/docker-compose.dev.yml",
-    "docsify/docker-compose.yml"
+    "LICENCE.md",
+    "README.md"
   ]
 }

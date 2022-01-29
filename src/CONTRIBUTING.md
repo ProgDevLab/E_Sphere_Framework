@@ -1,6 +1,6 @@
 # project_name : Contributing
 
-![Icon](/icon.png)
+![Icon](./icon.png)
 
 ## Table Of Contents
 

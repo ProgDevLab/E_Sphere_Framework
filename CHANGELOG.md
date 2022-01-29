@@ -1,14 +1,14 @@
-# project_name : Changelog
+# E Sphere Framework : Changelog
 
 ![Icon](./icon.png)
 
 ## Table Of Contents
 
-- [project_name : Changelog](#project_name--changelog)
+- [E Sphere Framework : Changelog](#e-sphere-framework--changelog)
   - [Table Of Contents](#table-of-contents)
   - [Description](#description)
   - [Lasted](#lasted)
-  - [[0.1.0] - 01-01-2022](#010---01-01-2022)
+  - [[1.0.0] - 29-01-2022](#100---29-01-2022)
     - [Added](#added)
 
 ## Description
@@ -34,11 +34,9 @@ Types of changes :
 
 ## Lasted
 
-- **Application Version** : [0.1.0] - 01-01-2022
-- **Framework Version** : [TODO]
-- **E Sphere Framework Version** : [1.0.0]
+- **E Sphere Framework Version** : [1.0.0] - 29-01-2022
 
-## [0.1.0] - 01-01-2022
+## [1.0.0] - 29-01-2022
 
 ### Added
 

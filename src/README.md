@@ -2,7 +2,7 @@
 
 [![License : MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![Icon](/icon.png)
+![Icon](./icon.png)
 
 ## Table Of Contents
 
@@ -13,8 +13,8 @@
   - [Getting Started](#getting-started)
     - [Requirements](#requirements)
     - [Build](#build)
-    - [Deploy](#deploy)
     - [Environment Variables](#environment-variables)
+    - [Deploy](#deploy)
   - [Changelog](#changelog)
   - [Documentations](#documentations)
     - [Docsify : Development](#docsify--development)
@@ -28,12 +28,15 @@ project_description
 
 ## Access
 
-- [project_name Development (Local)](http://localhost)
-- [project_name Docs Development (Local)](http://localhost:6007)
-- [project_name Production (Local)](http://localhost)
-- [project_name Docs Production (Local)](http://localhost:6007)
-- [project_name Production](https://project_name_raw)
-- [project_name Docs Production](https://project_name_raw-docs)
+- **Development (Local)** :
+  - [project_name Development](http://localhost)
+  - [project_name Docs Development](http://localhost:6007)
+- **Production (Local)** :
+  - [project_name Production](http://localhost)
+  - [project_name Docs Production](http://localhost:6007)
+- **Production** :
+  - [project_name Production](https://project_name_raw)
+  - [project_name Docs Production](https://project_name_raw-docs)
 
 ## Getting Started
 
@@ -53,7 +56,8 @@ If you use the **classic** way :
 
 If you use the **Docker** way :
 
-- TODO
+- Docker
+- Docker Compose
 
 ### Build
 
@@ -66,8 +70,19 @@ TODO
 If you use the **Docker** way :
 
 ```bash
-TODO
+# Development
+docker-compose -f docker-compose.dev.yml build
+
+# Production
+docker-compose build
 ```
+
+### Environment Variables
+
+| Parameter | Value Example | Description |
+|-|-|-|
+| PARAM | TODO | TODO Description |
+|  |  |  |
 
 ### Deploy
 
@@ -80,15 +95,12 @@ TODO
 If you use the **Docker** way :
 
 ```bash
-TODO
+# Development
+docker-compose -f docker-compose.dev.yml up
+
+# Production
+docker-compose up
 ```
-
-### Environment Variables
-
-| Parameter | Value Example | Description |
-|-|-|-|
-| PARAM | TODO | TODO Description |
-|  |  |  |
 
 ## Changelog
 
@@ -99,7 +111,6 @@ See [CHANGELOG](./CHANGELOG.md) for more information.
 - [Ideas](./docs/ideas.md)
 - [Analysis](./docs/analysis.md)
 - [Commands](./docs/commands.md)
-- [Docsify Docs](http://localhost:6007)
 
 ### Docsify : Development
 

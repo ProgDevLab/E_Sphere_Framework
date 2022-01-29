@@ -2,9 +2,9 @@ version: '3.6'
 
 
 services:
-  project_name_docs:
-    container_name: project_name_docs
-    image: project_name_docs:latest
+  project_name_raw_docs:
+    container_name: project_name_raw_docs
+    image: project_name_raw_docs:latest
     build:
       context: ..
       dockerfile: ./docsify/Dockerfile
