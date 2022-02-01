@@ -17,9 +17,9 @@
     "docs/ideas.md",
     "docsify/docker-compose.dev.yml",
     "docsify/docker-compose.yml",
-    "docsify/index.html",
     "CHANGELOG.md",
     "CONTRIBUTING.md",
+    "index.html",
     "LICENCE.md",
     "README.md"
   ]

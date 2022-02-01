@@ -10,10 +10,10 @@ services:
       dockerfile: ./docsify/Dockerfile.dev
     volumes:
       - ../docs:/app/docs
-      - ./index.html:/app/index.html
       - ../icon.png:/app/icon.png
       - ../CHANGELOG.md:/app/CHANGELOG.md
       - ../CONTRIBUTING.md:/app/CONTRIBUTING.md
+      - ../index.html:/app/index.html
       - ../LICENCE.md:/app/LICENCE.md
       - ../README.md:/app/README.md
     ports:
