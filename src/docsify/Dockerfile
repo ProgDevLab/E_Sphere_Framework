@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:stable-alpine
 
 COPY ./docs /usr/share/nginx/html/docs
 COPY ./icon.png /usr/share/nginx/html/icon.png

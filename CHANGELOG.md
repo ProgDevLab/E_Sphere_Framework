@@ -8,8 +8,10 @@
   - [Table Of Contents](#table-of-contents)
   - [Description](#description)
   - [Lasted](#lasted)
-  - [[1.2.0] - 01-02-2022](#120---01-02-2022)
+  - [[1.4.0] - 06-02-2022](#140---06-02-2022)
     - [Fixed](#fixed)
+  - [[1.2.0] - 01-02-2022](#120---01-02-2022)
+    - [Fixed](#fixed-1)
   - [[1.0.0] - 29-01-2022](#100---29-01-2022)
     - [Added](#added)
 
@@ -36,7 +38,13 @@ Types of changes :
 
 ## Lasted
 
-- **E Sphere Framework Version** : [1.2.0] - 01-02-2022
+- **E Sphere Framework Version** : [1.4.0] - 06-02-2022
+
+## [1.4.0] - 06-02-2022
+
+### Fixed
+
+- Docsify Dockerfile Base Image
 
 ## [1.2.0] - 01-02-2022
 
