@@ -1,4 +1,4 @@
-![icon](../icon.png)
+![icon](./icon.png)
 
 # project_name
 

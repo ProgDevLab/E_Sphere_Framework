@@ -16,6 +16,7 @@
     - [Scope](#scope)
     - [Enforcement](#enforcement)
     - [Attribution](#attribution)
+  - [Contributing](#contributing)
 
 ## Description
 
@@ -111,3 +112,7 @@ available at [http://contributor-covenant.org/version/1/4][version]
 
 [homepage]: http://contributor-covenant.org
 [version]: http://contributor-covenant.org/version/1/4/
+
+## Contributing
+
+- **project_author**

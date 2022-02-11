@@ -36,10 +36,10 @@ Types of changes :
 
 - **Application Version** : [0.1.0] - 01-01-2022
 - **Framework Version** : [TODO]
-- **E Sphere Framework Version** : [1.4.0]
+- **E Sphere Framework Version** : [1.6.0]
 
 ## [0.1.0] - 01-01-2022
 
 ### Added
 
-- Init E Sphere Framework 1.4.0
+- Init E Sphere Framework 1.6.0
