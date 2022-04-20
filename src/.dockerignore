@@ -1,5 +1,5 @@
 # Temporary Folder
-tmp
+**/tmp
 
 # VS Code
-.vscode
+**/.vscode

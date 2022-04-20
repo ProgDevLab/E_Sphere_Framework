@@ -12,13 +12,12 @@
   - [Access](#access)
   - [Getting Started](#getting-started)
     - [Requirements](#requirements)
-    - [Build](#build)
     - [Environment Variables](#environment-variables)
+    - [Build](#build)
     - [Deploy](#deploy)
   - [Changelog](#changelog)
   - [Documentations](#documentations)
-    - [Docsify : Development](#docsify--development)
-    - [Docsify : Production](#docsify--production)
+    - [Docsify](#docsify)
   - [Contributing](#contributing)
   - [Licence](#licence)
 
@@ -40,42 +39,25 @@ project_description
 
 ## Getting Started
 
-If you use the **classic** way, just clone this repository, build it and deploy it.
-
-If you use the **Docker** way, here a sample of Docker Compose file : **docker-compose.yml**
+Here a sample of Docker Compose file : **docker-compose.yml**
 
 ```yaml
 TODO
 ```
 
+If you want you can **develop** this repository :
+
+1) You need to install the [Requirements](#requirements)
+2) Create the `.env` file with the `.env.sample` file by refering to the [Environment Variables](#environment-variables)
+3) [Build](#build) the application
+4) [Deploy](#deploy) your application
+
 ### Requirements
 
-If you use the **classic** way :
-
-- TODO
-
-If you use the **Docker** way :
+We use **Docker** :
 
 - Docker
 - Docker Compose
-
-### Build
-
-If you use the **classic** way :
-
-```bash
-TODO
-```
-
-If you use the **Docker** way :
-
-```bash
-# Development
-docker-compose -f docker-compose.dev.yml build
-
-# Production
-docker-compose build
-```
 
 ### Environment Variables
 
@@ -84,15 +66,20 @@ docker-compose build
 | PARAM | TODO | TODO Description |
 |  |  |  |
 
-### Deploy
-
-If you use the **classic** way :
+### Build
 
 ```bash
+# Development
+docker-compose -f docker-compose.dev.yml build
+
+# Production
+docker-compose build
+
+# Buildx Production Build (for ARM and x86-64 Processors)
 TODO
 ```
 
-If you use the **Docker** way :
+### Deploy
 
 ```bash
 # Development
@@ -112,17 +99,15 @@ See [CHANGELOG](./CHANGELOG.md) for more information.
 - [Analysis](./docs/analysis.md)
 - [Commands](./docs/commands.md)
 
-### Docsify : Development
+### Docsify
 
 ```bash
 cd docsify
+
+# Development
 docker-compose -f docker-compose.dev.yml up
-```
 
-### Docsify : Production
-
-```bash
-cd docsify
+# Production
 docker-compose up --build
 ```
 

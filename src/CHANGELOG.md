@@ -9,7 +9,6 @@
   - [Description](#description)
   - [Lasted](#lasted)
   - [[0.1.0] - 01-01-2022](#010---01-01-2022)
-    - [Added](#added)
 
 ## Description
 
@@ -36,10 +35,9 @@ Types of changes :
 
 - **Application Version** : [0.1.0] - 01-01-2022
 - **Framework Version** : [TODO]
-- **E Sphere Framework Version** : [1.8.0]
+- **E Sphere Framework Version** : [1.10.0]
 
 ## [0.1.0] - 01-01-2022
 
-### Added
-
-- Init E Sphere Framework 1.8.0
+- **Added** :
+  - Init E Sphere Framework 1.10.0

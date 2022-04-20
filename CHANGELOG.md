@@ -8,16 +8,12 @@
   - [Table Of Contents](#table-of-contents)
   - [Description](#description)
   - [Lasted](#lasted)
+  - [[1.10.0] - 20-04-2022](#1100---20-04-2022)
   - [[1.8.0] - 11-02-2022](#180---11-02-2022)
-    - [Fixed](#fixed)
   - [[1.6.0] - 11-02-2022](#160---11-02-2022)
-    - [Fixed](#fixed-1)
   - [[1.4.0] - 06-02-2022](#140---06-02-2022)
-    - [Fixed](#fixed-2)
   - [[1.2.0] - 01-02-2022](#120---01-02-2022)
-    - [Fixed](#fixed-3)
   - [[1.0.0] - 29-01-2022](#100---29-01-2022)
-    - [Added](#added)
 
 ## Description
 
@@ -42,36 +38,38 @@ Types of changes :
 
 ## Lasted
 
-- **E Sphere Framework Version** : [1.8.0] - 11-02-2022
+- **E Sphere Framework Version** : [1.10.0] - 20-04-2022
+
+## [1.10.0] - 20-04-2022
+
+- **Fixed** :
+  - Add Buildx Setup
+  - Add Docker Ignore File
+  - Upgrade README
 
 ## [1.8.0] - 11-02-2022
 
-### Fixed
-
-- Docsify Fix Relative Path
+- **Fixed** :
+  - Docsify Fix Relative Path
 
 ## [1.6.0] - 11-02-2022
 
-### Fixed
-
-- Docsify Dockerfile Base Image with Fixed Version
-- Docsify GitHub Compatibility Fix
-- Docsify General Fix
+- **Fixed** :
+  - Docsify Dockerfile Base Image with Fixed Version
+  - Docsify GitHub Compatibility Fix
+  - Docsify General Fix
 
 ## [1.4.0] - 06-02-2022
 
-### Fixed
-
-- Docsify Dockerfile Base Image
+- **Fixed** :
+  - Docsify Dockerfile Base Image
 
 ## [1.2.0] - 01-02-2022
 
-### Fixed
-
-- Docsify GitHub Pages Deployment
+- **Fixed** :
+  - Docsify GitHub Pages Deployment
 
 ## [1.0.0] - 29-01-2022
 
-### Added
-
-- Init E Sphere Framework 1.0.0
+- **Added** :
+  - Init E Sphere Framework 1.0.0

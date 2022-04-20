@@ -1,5 +1,5 @@
+---
 version: '3.6'
-
 
 services:
   project_name_raw_docs:
@@ -9,5 +9,5 @@ services:
       context: ..
       dockerfile: ./docsify/Dockerfile
     ports:
-      - 6007:80
+    - 6007:80
     restart: unless-stopped

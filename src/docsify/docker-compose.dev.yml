@@ -1,5 +1,5 @@
+---
 version: '3.6'
-
 
 services:
   project_name_raw_docs_dev:
@@ -9,13 +9,13 @@ services:
       context: ..
       dockerfile: ./docsify/Dockerfile.dev
     volumes:
-      - ../docs:/app/docs
-      - ../icon.png:/app/icon.png
-      - ../CHANGELOG.md:/app/CHANGELOG.md
-      - ../CONTRIBUTING.md:/app/CONTRIBUTING.md
-      - ../index.html:/app/index.html
-      - ../LICENCE.md:/app/LICENCE.md
-      - ../README.md:/app/README.md
+    - ../docs:/app/docs
+    - ../icon.png:/app/icon.png
+    - ../CHANGELOG.md:/app/CHANGELOG.md
+    - ../CONTRIBUTING.md:/app/CONTRIBUTING.md
+    - ../index.html:/app/index.html
+    - ../LICENCE.md:/app/LICENCE.md
+    - ../README.md:/app/README.md
     ports:
-      - 6007:3000
+    - 6007:3000
     restart: unless-stopped

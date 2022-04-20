@@ -25,14 +25,12 @@ Init files for each Framework.
 
 ### Requirements
 
-If you use the **classic** way :
-
 - Python3
 - Git
 
 ### Build
 
-If you use the **classic** way :
+Trigger a new build :
 
 ```bash
 ./build.sh
@@ -52,8 +50,6 @@ Next copy your files in another folder than **E Sphere Framework** because this 
 
 ### Deploy
 
-If you use the **classic** way :
-
 ```bash
 ./install.sh
 ```
@@ -64,7 +60,7 @@ See [CHANGELOG](./CHANGELOG.md) for more information.
 
 ## Documentations
 
-- [Idea](./docs/idea.md)
+- [Ideas](./docs/ideas.md)
 
 ## Licence
 

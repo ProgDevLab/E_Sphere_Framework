@@ -44,6 +44,8 @@ Leveling Analysis can be used to find features of project and fix any problem in
     - **Sprint** : Some Feature Done
       - **Task** : One Feature Done
 
+Starting : each project are long lived, so the best way is to setup first your basic API with a basic Admin interface to start to use the application.
+
 ### Level 001
 
 - TODO Level 001 Features

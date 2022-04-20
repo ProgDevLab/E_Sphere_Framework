@@ -1,5 +1,6 @@
 FROM nginx:1.20-alpine
 
+# Copy documentations files
 COPY ./docs /usr/share/nginx/html/docs
 COPY ./icon.png /usr/share/nginx/html/icon.png
 COPY ./CHANGELOG.md /usr/share/nginx/html/CHANGELOG.md
