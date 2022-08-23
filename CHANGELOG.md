@@ -46,6 +46,7 @@ Types of changes :
 
 - **Fixed** :
   - Add Buildx Setup
+  - Add GitLab CI and GitHub Actions
 
 ## [1.11.0] - 23-08-2022
 
