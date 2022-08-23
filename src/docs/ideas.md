@@ -1,10 +1,10 @@
-# project_name : Ideas
+# project-name : Ideas
 
 ![Icon](../icon.png)
 
 ## Table Of Contents
 
-- [project_name : Ideas](#project_name--ideas)
+- [project-name : Ideas](#project-name--ideas)
   - [Table Of Contents](#table-of-contents)
   - [Ideas](#ideas)
 

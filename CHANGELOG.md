@@ -8,6 +8,8 @@
   - [Table Of Contents](#table-of-contents)
   - [Description](#description)
   - [Lasted](#lasted)
+  - [[1.12.0] - ??-09-2022](#1120----09-2022)
+  - [[1.11.0] - 23-08-2022](#1110---23-08-2022)
   - [[1.10.0] - 20-04-2022](#1100---20-04-2022)
   - [[1.8.0] - 11-02-2022](#180---11-02-2022)
   - [[1.6.0] - 11-02-2022](#160---11-02-2022)
@@ -38,7 +40,17 @@ Types of changes :
 
 ## Lasted
 
-- **E Sphere Framework Version** : [1.10.0] - 20-04-2022
+- **E Sphere Framework Version** : [1.11.0] - 23-08-2022
+
+## [1.12.0] - ??-09-2022
+
+- **Fixed** :
+  - Add Buildx Setup
+
+## [1.11.0] - 23-08-2022
+
+- **Fixed** :
+  - Docker Compose Naming Convention
 
 ## [1.10.0] - 20-04-2022
 

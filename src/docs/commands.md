@@ -1,10 +1,10 @@
-# project_name : Commands
+# project-name : Commands
 
 ![Icon](../icon.png)
 
 ## Table Of Contents
 
-- [project_name : Commands](#project_name--commands)
+- [project-name : Commands](#project-name--commands)
   - [Table Of Contents](#table-of-contents)
   - [Commands](#commands)
 

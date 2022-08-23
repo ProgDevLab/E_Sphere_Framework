@@ -45,7 +45,7 @@ def configureGit(git_list):
 
 
 def searchAndReplace(fileList, searchAndReplaceList):
-    searchAndReplaceList['start_year'] = str(date.today().year)
+    searchAndReplaceList['start-year'] = str(date.today().year)
     for file in fileList:
         fileData = ""
 

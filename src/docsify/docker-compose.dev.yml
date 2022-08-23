@@ -2,9 +2,9 @@
 version: '3.6'
 
 services:
-  project_name_raw_docs_dev:
-    container_name: project_name_raw_docs_dev
-    image: project_name_raw_docs:latest-dev
+  project-name-raw-docs-dev:
+    container_name: project-name-raw-docs-dev
+    image: project-name-raw-docs:latest-dev
     build:
       context: ..
       dockerfile: ./docsify/Dockerfile.dev

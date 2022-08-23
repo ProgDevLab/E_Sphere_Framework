@@ -1,10 +1,10 @@
-# project_name : Contributing
+# project-name : Contributing
 
 ![Icon](./icon.png)
 
 ## Table Of Contents
 
-- [project_name : Contributing](#project_name--contributing)
+- [project-name : Contributing](#project-name--contributing)
   - [Table Of Contents](#table-of-contents)
   - [Description](#description)
   - [Git Branch System](#git-branch-system)
@@ -115,4 +115,4 @@ available at [http://contributor-covenant.org/version/1/4][version]
 
 ## Contributing
 
-- **project_author**
+- **project-author**

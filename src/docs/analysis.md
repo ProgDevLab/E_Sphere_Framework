@@ -1,10 +1,10 @@
-# project_name : Analysis
+# project-name : Analysis
 
 ![Icon](../icon.png)
 
 ## Table Of Contents
 
-- [project_name : Analysis](#project_name--analysis)
+- [project-name : Analysis](#project-name--analysis)
   - [Table Of Contents](#table-of-contents)
   - [Objectives](#objectives)
   - [FlowChart](#flowchart)

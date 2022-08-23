@@ -1,7 +1,7 @@
 ![icon](./icon.png)
 
-# project_name
+# project-name
 
-> project_description
+> project-description
 
 [Getting Started](#getting-started)

@@ -1,10 +1,10 @@
 {
   "searchAndReplaceList": {
     "PROJECT_NAME_UPPER": "PROJECT_NAME",
-    "project_name_raw": "project_name",
-    "project_name": "Project Name",
-    "project_description": "Project Description.",
-    "project_author": "ProgOwer"
+    "project-name-raw": "project-name",
+    "project-name": "Project Name",
+    "project-description": "Project Description.",
+    "project-author": "ProgOwer"
   },
   "gitList": {
     "gitlab": "git@gitlab.com:project.git",

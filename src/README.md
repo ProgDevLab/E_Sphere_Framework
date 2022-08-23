@@ -1,4 +1,4 @@
-# project_name
+# project-name
 
 [![License : MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -6,7 +6,7 @@
 
 ## Table Of Contents
 
-- [project_name](#project_name)
+- [project-name](#project-name)
   - [Table Of Contents](#table-of-contents)
   - [Description](#description)
   - [Access](#access)
@@ -23,19 +23,19 @@
 
 ## Description
 
-project_description
+project-description
 
 ## Access
 
 - **Development (Local)** :
-  - [project_name Development](http://localhost)
-  - [project_name Docs Development](http://localhost:6007)
+  - [project-name Development](http://localhost)
+  - [project-name Docs Development](http://localhost:6007)
 - **Production (Local)** :
-  - [project_name Production](http://localhost)
-  - [project_name Docs Production](http://localhost:6007)
+  - [project-name Production](http://localhost)
+  - [project-name Docs Production](http://localhost:6007)
 - **Production** :
-  - [project_name Production](https://project_name_raw)
-  - [project_name Docs Production](https://project_name_raw-docs)
+  - [project-name Production](https://project-name_raw)
+  - [project-name Docs Production](https://project-name_raw-docs)
 
 ## Getting Started
 

@@ -1,10 +1,10 @@
-# project_name : Changelog
+# project-name : Changelog
 
 ![Icon](./icon.png)
 
 ## Table Of Contents
 
-- [project_name : Changelog](#project_name--changelog)
+- [project-name : Changelog](#project-name--changelog)
   - [Table Of Contents](#table-of-contents)
   - [Description](#description)
   - [Lasted](#lasted)
@@ -35,9 +35,9 @@ Types of changes :
 
 - **Application Version** : [0.1.0] - 01-01-2022
 - **Framework Version** : [TODO]
-- **E Sphere Framework Version** : [1.10.0]
+- **E Sphere Framework Version** : [1.11.0]
 
 ## [0.1.0] - 01-01-2022
 
 - **Added** :
-  - Init E Sphere Framework 1.10.0
+  - Init E Sphere Framework 1.11.0
