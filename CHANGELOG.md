@@ -45,6 +45,7 @@ Types of changes :
 ## [1.12.0] - ??-09-2022
 
 - **Fixed** :
+  - Docsify KaTeX Plugins
   - Add Buildx Setup
   - Add GitLab CI and GitHub Actions
 
