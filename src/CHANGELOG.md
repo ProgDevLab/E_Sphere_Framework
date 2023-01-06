@@ -8,7 +8,7 @@
   - [Table Of Contents](#table-of-contents)
   - [Description](#description)
   - [Lasted](#lasted)
-  - [[0.1.0] - 01-01-2022](#010---01-01-2022)
+  - [\[0.1.0\] - 01-01-2022](#010---01-01-2022)
 
 ## Description
 

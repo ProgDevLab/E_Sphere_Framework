@@ -29,10 +29,10 @@ project-description
 
 - **Development (Local)** :
   - [project-name Development](http://localhost)
-  - [project-name Docs Development](http://localhost:6007)
+  - [project-name Docs Development](http://localhost:3000)
 - **Production (Local)** :
   - [project-name Production](http://localhost)
-  - [project-name Docs Production](http://localhost:6007)
+  - [project-name Docs Production](http://localhost:3000)
 - **Production** :
   - [project-name Production](https://project-name_raw)
   - [project-name Docs Production](https://project-name_raw-docs)
@@ -70,23 +70,25 @@ We use **Docker** :
 
 ```bash
 # Development
-docker-compose -f docker-compose.dev.yml build
+docker compose -f docker-compose.dev.yml build
 
 # Production
-docker-compose build
+docker compose build
 
 # Buildx Production Build (for ARM and x86-64 Processors)
-TODO
+docker buildx create --name mainBuilder
+docker buildx use mainBuilder
+docker buildx build --platform linux/amd64,linux/arm64 -t project-name-raw:latest --load .
 ```
 
 ### Deploy
 
 ```bash
 # Development
-docker-compose -f docker-compose.dev.yml up
+docker compose -f docker-compose.dev.yml up
 
 # Production
-docker-compose up
+docker compose up
 ```
 
 ## Changelog
@@ -105,10 +107,10 @@ See [CHANGELOG](./CHANGELOG.md) for more information.
 cd docsify
 
 # Development
-docker-compose -f docker-compose.dev.yml up
+docker compose -f docker-compose.dev.yml up
 
 # Production
-docker-compose up --build
+docker compose up --build
 ```
 
 ## Contributing

@@ -61,6 +61,7 @@ See [CHANGELOG](./CHANGELOG.md) for more information.
 ## Documentations
 
 - [Ideas](./docs/ideas.md)
+- [New Framework](./docs/new.md)
 
 ## Licence
 
