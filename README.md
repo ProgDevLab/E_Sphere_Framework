@@ -11,10 +11,9 @@
 - [E Sphere Framework](#e-sphere-framework)
   - [Table Of Contents](#table-of-contents)
   - [Description](#description)
-    - [Requirements](#requirements)
-    - [Build](#build)
-    - [Variables](#variables)
-    - [Deploy](#deploy)
+  - [Requirements](#requirements)
+  - [Getting Started](#getting-started)
+    - [Clone](#clone)
   - [Changelog](#changelog)
   - [Documentations](#documentations)
   - [Licence](#licence)
@@ -23,35 +22,28 @@
 
 Init files for each Framework.
 
-### Requirements
+## Requirements
 
 - Python3
 - Git
 
-### Build
+## Getting Started
 
-Trigger a new build :
+If you want to setup a **new project** with this **E Sphere Framework** base, you need to copy the **src** folder and rename it to your **project name** like this :
 
-```bash
-./build.sh
-```
+1) First of all, you need to **download** the **template** and rename the **src** folder, go to [clone](#clone) **documentation**.
+2) Now you have to **configure** your project, to do this you have to edit the **install.json** file to **update each parameters**.
+3) Finally you can **run the script** to **init** your project : **./install.sh**
 
-You can clean the build folder with this command :
-
-```bash
-./clean.sh
-```
-
-### Variables
-
-Before deploy the package, you need to update the file **install.json** with your values.
-
-Next copy your files in another folder than **E Sphere Framework** because this folder will be init with git.
-
-### Deploy
+### Clone
 
 ```bash
-./install.sh
+# Clone the lasted version available
+git clone https://gitlab.com/progdevlab/e_sphere_framework.git tmp
+# Move and rename the template with your project
+mv tmp/src PROJECT_NAME
+# Delete the Temporary folder
+rm -R tmp
 ```
 
 ## Changelog
@@ -61,7 +53,6 @@ See [CHANGELOG](./CHANGELOG.md) for more information.
 ## Documentations
 
 - [Ideas](./docs/ideas.md)
-- [New Framework](./docs/new.md)
 
 ## Licence
 
