@@ -8,6 +8,7 @@
   - [Table Of Contents](#table-of-contents)
   - [Description](#description)
   - [Lasted](#lasted)
+  - [\[1.13.0\] - 24-03-2023](#1130---24-03-2023)
   - [\[1.12.0\] - 06-01-2023](#1120---06-01-2023)
   - [\[1.11.0\] - 23-08-2022](#1110---23-08-2022)
   - [\[1.10.0\] - 20-04-2022](#1100---20-04-2022)
@@ -41,6 +42,14 @@ Types of changes :
 ## Lasted
 
 - **E Sphere Framework Version** : [1.12.0] - 06-01-2023
+
+## [1.13.0] - 24-03-2023
+
+- **Added** :
+  - Makefile to manage project commands
+- **Changed** :
+  - Docker files are in a docker folder now
+  - Documentation use Makefile commands by default
 
 ## [1.12.0] - 06-01-2023
 

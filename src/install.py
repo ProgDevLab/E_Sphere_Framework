@@ -10,7 +10,7 @@ from datetime import date
 CONFIG_FILE = "install.json"
 
 __author__ = "ProgOwer"
-__copyright__ = "Copyright 2022, E Sphere Framework Install Script"
+__copyright__ = "Copyright 2022-2023, E Sphere Framework Install Script"
 __credits__ = ["ProgOwer"]
 __license__ = "MIT"
 __version__ = "1.0.0"

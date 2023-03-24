@@ -11,13 +11,10 @@
   - [Description](#description)
   - [Access](#access)
   - [Getting Started](#getting-started)
-    - [Requirements](#requirements)
     - [Environment Variables](#environment-variables)
-    - [Build](#build)
-    - [Deploy](#deploy)
+    - [Build and Deploy](#build-and-deploy)
   - [Changelog](#changelog)
   - [Documentations](#documentations)
-    - [Docsify](#docsify)
   - [Contributing](#contributing)
   - [Licence](#licence)
 
@@ -47,17 +44,10 @@ TODO
 
 If you want you can **develop** this repository :
 
-1) You need to install the [Requirements](#requirements)
+1) You need to install **[Docker](https://docs.docker.com/get-docker/)** and **[Make](https://progdevlab.gitlab.io/dyntools/#/docs/global/makefile)**
 2) Create the `.env` file with the `.env.sample` file by refering to the [Environment Variables](#environment-variables)
 3) [Build](#build) the application
 4) [Deploy](#deploy) your application
-
-### Requirements
-
-We use **Docker** :
-
-- Docker
-- Docker Compose
 
 ### Environment Variables
 
@@ -66,29 +56,30 @@ We use **Docker** :
 | PARAM | TODO | TODO Description |
 |  |  |  |
 
-### Build
+### Build and Deploy
+
+- **Production** :
+  - `make build` : Build
+  - `make start` : Start
+  - `make start-detach` : Start in detach mode
+  - `make stop` : Stop
+  - `make start-docs` : Start Documentation Website
+  - `make stop-docs` : Stop Documentation Website
+- **Development** :
+  - `make build-dev` : Build
+  - `make start-dev` : Start
+  - `make start-detach-dev` : Start in detach mode
+  - `make stop-dev` : Stop
+  - `make start-docs-dev` : Start Documentation Website
+  - `make stop-docs-dev` : Stop Documentation Website
+
+If you want to use Docker Buildx :
 
 ```bash
-# Development
-docker compose -f docker-compose.dev.yml build
-
-# Production
-docker compose build
-
 # Buildx Production Build (for ARM and x86-64 Processors)
 docker buildx create --name mainBuilder
 docker buildx use mainBuilder
 docker buildx build --platform linux/amd64,linux/arm64 -t project-name-raw:latest --load .
-```
-
-### Deploy
-
-```bash
-# Development
-docker compose -f docker-compose.dev.yml up
-
-# Production
-docker compose up
 ```
 
 ## Changelog
@@ -100,18 +91,6 @@ See [CHANGELOG](./CHANGELOG.md) for more information.
 - [Ideas](./docs/ideas.md)
 - [Analysis](./docs/analysis.md)
 - [Commands](./docs/commands.md)
-
-### Docsify
-
-```bash
-cd docsify
-
-# Development
-docker compose -f docker-compose.dev.yml up
-
-# Production
-docker compose up --build
-```
 
 ## Contributing
 
