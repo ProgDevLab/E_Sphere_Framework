@@ -46,8 +46,7 @@ If you want you can **develop** this repository :
 
 1) You need to install **[Docker](https://docs.docker.com/get-docker/)** and **[Make](https://progdevlab.gitlab.io/dyntools/#/docs/global/makefile)**
 2) Create the `.env` file with the `.env.sample` file by refering to the [Environment Variables](#environment-variables)
-3) [Build](#build) the application
-4) [Deploy](#deploy) your application
+3) [Build and Deploy](#build-and-deploy) the application
 
 ### Environment Variables
 
